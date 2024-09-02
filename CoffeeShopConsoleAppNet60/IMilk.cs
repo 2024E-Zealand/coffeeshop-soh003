@@ -8,6 +8,6 @@ namespace CoffeeShopConsoleAppNet60
 {
     internal interface IMilk
     {
-        
+        int mlMilk(); // metode til at returnere mængde af mælk i ml.
     }
 }

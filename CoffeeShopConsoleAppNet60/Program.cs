@@ -10,7 +10,8 @@ Console.WriteLine($"");
 
 Latte latte = new Latte();
 Console.WriteLine($"Latte, Strength: {latte.Strength()}: {blackCoffee.Price()+ 20} DKK");
-Console.WriteLine($"");
+Console.WriteLine($"ml Milk: {latte.mlMilk()}");
 
 Cortado cortado = new Cortado();    
-Console.WriteLine($"Latte, Strength {cortado.Strength()}: {blackCoffee.Price() + 5} DKK");
+Console.WriteLine($"Cortado, Strength {cortado.Strength()}: {blackCoffee.Price() + 5} DKK");
+Console.WriteLine($"ml Milk: {cortado.mlMilk()}");
