@@ -13,6 +13,10 @@ namespace CoffeeShopConsoleAppNet60
         {
             return 20;
         }
+
+        //Abstrakt metode til implementering af styrke for kaffer
+        public abstract string Strength();
+        
        
     }
 }
