@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    public abstract class Coffee
+    internal class Cortado : Coffee
     {
-        public virtual int Price()
+        public override int Price()
         {
-            return 20;
+            return base.Price()+5;
         }
-       
     }
 }
