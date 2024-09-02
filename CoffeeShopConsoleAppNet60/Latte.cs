@@ -8,9 +8,13 @@ namespace CoffeeShopConsoleAppNet60
 {
     internal class Latte : Coffee, IMilk
     {
+        private const int BasePrice = 40;
+
+        public Latte(int discount) : base(discount) { }
+
         public override int Price()
         {
-            return 40;
+            return BasePrice - Discount;
         }
 
         public override string Strength()
